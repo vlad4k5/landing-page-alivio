@@ -1,0 +1,29 @@
+@import "../../assets/scss/mixins";
+
+.slogan {
+  position: relative;
+  .sloganBlock {
+    position: absolute;
+    max-width: 440px;
+    left: 275px;
+    top: 175px;
+
+    h1 {
+      padding: 0;
+      margin: 10px 0 30px 0;
+      font-weight: bold;
+      font-size: 65px;
+      line-height: 74px;
+      color: #01996d;
+    }
+    p {
+      font-size: 20px;
+      line-height: 31px;
+      color: #484848;
+      padding-bottom: 20px;
+    }
+    button {
+      @include greenButton;
+    }
+  }
+}

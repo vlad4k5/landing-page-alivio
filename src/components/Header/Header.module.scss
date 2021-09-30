@@ -1,0 +1,36 @@
+@import "../../assets/scss/mixins";
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+header {
+  font-family: "Lato", sans-serif;
+  display: flex;
+  align-items: center;
+  height: 85px;
+  padding: 0 275px;
+  background-color: #fff;
+
+  .logo {
+    width: 80px;
+    height: 23px;
+  }
+
+  .navBlock {
+    margin: 0 280px 0 170px;
+    display: inline-flex;
+    gap: 70px;
+
+    .navButton {
+      @include transparentButton;
+    }
+  }
+
+  .signInButton {
+    @include transparentButton;
+    margin-right: 35px;
+  }
+
+  .startTrialButton {
+    @include greenButton;
+    padding: 13px 50px;
+  }
+}

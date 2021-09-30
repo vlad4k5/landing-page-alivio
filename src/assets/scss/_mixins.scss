@@ -1,0 +1,25 @@
+@mixin transparentButton() {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+@mixin greenButton() {
+  white-space: nowrap;
+  cursor: pointer;
+  font-family: "Lato";
+  font-weight: 400;
+  padding: 20px 50px;
+  background: #01996d;
+  box-sizing: border-box;
+  border: 1px solid #01996d;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 20px;
+  line-height: 25px;
+}
