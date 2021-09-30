@@ -1,3 +1,4 @@
+import s from "./App.module.scss"
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import HowItWorks from './components/HowItWorks/HowItWorks';
@@ -6,7 +7,7 @@ import Slogan from './components/Slogan/Slogan';
 import SuccessStory from './components/SuccessStory/SuccessStory';
 
 const App = () => {
-  return <div className="app">
+  return <div className={s.app}>
       <Header />
       <Slogan />
       <HowItWorks />

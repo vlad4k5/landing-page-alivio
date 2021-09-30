@@ -1,4 +1,5 @@
 @mixin transparentButton() {
+  // font-family: "Lato";
   padding: 0;
   background-color: transparent;
   border: none;
@@ -12,7 +13,7 @@
 @mixin greenButton() {
   white-space: nowrap;
   cursor: pointer;
-  font-family: "Lato";
+  // font-family: "Lato";
   font-weight: 400;
   padding: 20px 50px;
   background: #01996d;

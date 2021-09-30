@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import "./assets/scss/fonts";
 
 .app {
+  background-color: #fff;
+}
+
+* {
   font-family: "Lato", sans-serif;
-  background-color: #e5e5e5;
 }

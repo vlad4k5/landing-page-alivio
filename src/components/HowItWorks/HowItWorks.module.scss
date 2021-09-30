@@ -1,7 +1,6 @@
 .mainBlock {
   margin: 150px 275px 0px 275px;
   h2 {
-    font-family: "Lato";
     font-weight: 400;
     font-size: 24px;
     line-height: 38px;
@@ -14,6 +13,7 @@
     column-gap: 135px;
 
     .firstColumn {
+      font-family: "Georgia";
       font-weight: bold;
       font-size: 50px;
       line-height: 79px;
@@ -35,12 +35,14 @@
     column-gap: 95px;
 
     h3 {
+      font-family: "Georgia";
       font-size: 30px;
       line-height: 45px;
       text-align: center;
 
       &::before {
         position: absolute;
+        font-style: normal;
         font-size: 150px;
         font-weight: 400;
         color: rgba(1, 153, 109, 0.2);
@@ -58,8 +60,8 @@
       position: relative;
       h3:before {
         content: "01";
-        left: 20px;
-        top: -20px;
+        left: 10px;
+        top: -15px;
       }
 
       img {
@@ -79,8 +81,8 @@
 
       h3:before {
         content: "02";
-        left: 20px;
-        top: 180px;
+        left: 10px;
+        top: 185px;
       }
 
       img {
@@ -94,8 +96,8 @@
 
       h3:before {
         content: "03";
-        left: 20px;
-        top: 35px;
+        left: 10px;
+        top: 40px;
       }
 
       img {

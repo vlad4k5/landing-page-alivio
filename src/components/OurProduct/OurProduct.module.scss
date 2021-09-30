@@ -17,11 +17,10 @@
   }
 
   .info {
-    max-width: 510px;
+    max-width: 585px;
 
     h2 {
       margin: 0;
-      font-weight: 600;
       font-size: 25px;
       line-height: 39px;
       color: #424242;
@@ -29,6 +28,7 @@
 
     h3 {
       margin: 0;
+      font-family: "Georgia";
       font-weight: bold;
       font-size: 50px;
       line-height: 79px;
@@ -36,6 +36,7 @@
     }
 
     p {
+      max-width: 520px;
       margin: 0;
       font-size: 20px;
       line-height: 31px;

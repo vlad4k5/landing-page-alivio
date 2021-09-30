@@ -4,12 +4,16 @@
   margin-top: 50px;
   background: #245852;
   display: flex;
+  gap: 30px;
   padding: 200px 205px;
 
   .info {
+    padding-top: 30px;
     color: #fff;
 
     h2 {
+      font-family: "Georgia";
+      font-weight: bold;
       font-size: 50px;
       line-height: 79px;
     }
@@ -17,6 +21,7 @@
     p {
       font-size: 25px;
       line-height: 39px;
+      margin: 0;
     }
 
     button {
