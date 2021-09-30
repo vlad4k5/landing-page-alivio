@@ -2,7 +2,9 @@
 
 .ourProductBlock {
   margin: 120px 275px 240px 335px;
+  // margin: 120px auto 240px auto;
   display: flex;
+  justify-content: center;
   gap: 85px;
 
   .photoBlock {

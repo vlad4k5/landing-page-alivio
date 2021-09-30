@@ -2,6 +2,12 @@
 
 .slogan {
   position: relative;
+  margin: 0 auto;
+  max-width: 1920px;
+  .backGroundImage {
+    margin: 0 auto;
+  }
+
   .sloganBlock {
     position: absolute;
     max-width: 440px;

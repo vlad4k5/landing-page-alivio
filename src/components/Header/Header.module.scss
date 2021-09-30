@@ -4,7 +4,8 @@ header {
   display: flex;
   align-items: center;
   height: 85px;
-  padding: 0 275px;
+  max-width: 1370px;
+  margin: 0 auto;
   background-color: #fff;
 
   .logo {
