@@ -18,12 +18,12 @@ header {
     gap: 70px;
 
     .navButton {
-      @include transparentButton;
+      @include transparentButton(#474747);
     }
   }
 
   .signInButton {
-    @include transparentButton;
+    @include transparentButton(#474747);
     margin-right: 35px;
   }
 

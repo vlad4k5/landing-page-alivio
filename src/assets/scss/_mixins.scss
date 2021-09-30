@@ -1,19 +1,37 @@
-@mixin transparentButton() {
-  // font-family: "Lato";
+@mixin transparentButton($underlineColor) {
   padding: 0;
   background-color: transparent;
   border: none;
+  border-bottom: 1px solid transparent;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
   white-space: nowrap;
   cursor: pointer;
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 120%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -3px;
+    left: -10%;
+    background-color: $underlineColor;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+
+  &:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
 }
 
 @mixin greenButton() {
   white-space: nowrap;
   cursor: pointer;
-  // font-family: "Lato";
   font-weight: 400;
   padding: 20px 50px;
   background: #01996d;
@@ -23,4 +41,9 @@
   color: #fff;
   font-size: 20px;
   line-height: 25px;
+  transition: 0.25s;
+
+  &:hover {
+    background-color: lighten(#01996d, 4%);
+  }
 }
